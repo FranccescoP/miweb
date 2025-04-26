@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attandance control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Attandance control</h1>
+        <nav>
+            <a href="#faq">Questions</a>
+            <a href="#contacto">Contact:</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <h2>You need help?</h2>
+            <p>Estamos aquí para ayudarte. Revisa las preguntas frecuentes o contáctanos directamente.</p>
+        </section>
+
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <details>
+                <summary>¿Cómo restablezco mi contraseña?</summary>
+                <p>Puedes restablecer tu contraseña desde la página de inicio de sesión haciendo clic en "¿Olvidaste tu contraseña?"</p>
+            </details>
+            <details>
+                <summary>¿Cómo contacto al soporte?</summary>
+                <p>Puedes usar el formulario de contacto al final de esta página para escribirnos directamente.</p>
+            </details>
+            <details>
+                <summary>¿Dónde puedo ver mis pedidos?</summary>
+                <p>Inicia sesión y ve a tu perfil para consultar tu historial de pedidos.</p>
+            </details>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Message:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Centro de Asistencia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
